@@ -1,11 +1,12 @@
-koteł = "=^_^="
+kotel = "=^_^="
 
 ilośćKotełów = input("Ile chcesz kotów :O : ")
-try:
-    ilośćKotełów = int( ilośćKotełów )
-except ValeError as owcaError:
-    print( "Nie wpisałeś liczby" )
-    ilośćKotełów = 7
+
+ilośćKotełów = int (ilośćKotełów)
+
+
+for kotel in range( ilośćKotełów ):
+    print ("=^_^=" * kotel)
 
 #zadanie domowe
 """
@@ -21,3 +22,4 @@ Wynik:
 "=^_^=""=^_^="
 Hint: Pętle i if-y
 """
+
